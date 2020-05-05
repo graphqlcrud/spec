@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "spec-md spec/GraphQLCRUD.md > /dev/null",
+    "build": "mkdir -p dist; spec-md spec/GraphQLCRUD.md > dist/index.html",
+    "watch": "mkdir -p dist; nodemon --exec 'spec-md > dist/index.html' spec/GraphQLCRUD.md"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "spec-md": "^0.6.0"
+  }
+}
