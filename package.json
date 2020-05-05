@@ -1,8 +1,8 @@
 {
   "scripts": {
     "test": "spec-md spec/GraphQLCRUD.md > /dev/null",
-    "build": "mkdir -p dist; spec-md spec/GraphQLCRUD.md > dist/index.html",
-    "watch": "mkdir -p dist; nodemon --exec 'spec-md > index.html' spec/GraphQLCRUD.md"
+    "build": "spec-md spec/GraphQLCRUD.md > index.html",
+    "watch": "nodemon --exec 'spec-md > index.html' spec/GraphQLCRUD.md"
   },
   "devDependencies": {
     "nodemon": "2.0.3",
