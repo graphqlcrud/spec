@@ -13,7 +13,7 @@ patterns for building standard data driven GraphLQL APIs.
 - Define minimal subset of the CRUD capabilities 
 that every application or developer can consume.
 - Avoid corner cases or specifics of individual CRUD implementations 
-- Define leanient standard based on practices, 
+- Define lenient standard based on practices, 
 that do not enforce specific query or mutation names etc.
 - Provide set of the reference implementations for different languages:
  - JavaScript 
@@ -26,7 +26,7 @@ that do not enforce specific query or mutation names etc.
 GraphQL CRUD exposes useful
 - Map CRUD specifics of the popular platforms 
 - Defining best practices for writing GraphQL
-Please check https://graphql-rules.com instad
+Please check https://graphql-rules.com instead
 
 **Adopters** 
 
