@@ -2,7 +2,7 @@
   "scripts": {
     "test": "spec-md spec/GraphQLCRUD.md > /dev/null",
     "build": "spec-md spec/GraphQLCRUD.md > index.html",
-    "ghpages": "git checkout gh-pages && git reset --hard origin/master && rm README.md && npm run build && git commit -a -m'gh-pages' && git push origin +gh-pages",
+    "ghpages": "./scripts/ghpages.sh",
     "watch": "nodemon --exec 'spec-md > index.html' spec/GraphQLCRUD.md"
   },
   "devDependencies": {
