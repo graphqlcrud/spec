@@ -16,9 +16,9 @@ that every application or developer can consume.
 - Define lenient standard based on practices, 
 that do not enforce specific query or mutation names etc.
 - Provide set of the reference implementations for different languages:
- - JavaScript 
- - Golang
- - Java
+  - JavaScript 
+  - Golang
+  - Java
 
 **Non targets of this spec**
 
@@ -46,5 +46,10 @@ Please check https://graphql-rules.com instead
 *OData 4.0* - non graphql specific
 
 # [Overview](1-overview.md)
+
+**Note** 
+
+This standard is still in progress. 
+Contents bellow are not reflecting actual format of the standard. 
 
 # [Relational](2-crud/2-1-overview.md)
