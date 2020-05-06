@@ -25,7 +25,7 @@ that do not enforce specific query or mutation names etc.
 - Define every possible method to map database. 
 GraphQL CRUD exposes useful
 - Map CRUD specifics of the popular platforms 
-- Defining best practices for writing GraphQL
+- Defining best practices for writing GraphQL queries
 Please check https://graphql-rules.com instead
 
 **Adopters** 
@@ -37,19 +37,15 @@ Please check https://graphql-rules.com instead
 - GraphCMS
 - GraphQL-CLI
 - GraphQL-Serve
+- Graphback
 - Add your own framework
 
 **Other standards** 
 
-*opencrud.org* -  no longer mantained draft focusing on providing database mapping 
-*GraphQL Relay* - production ready standard for GraphQL based CRUD
-*OData 4.0* - non graphql specific
+- *opencrud.org* -  no longer mantained draft focusing on providing database mapping 
+- *GraphQL Relay* - production ready standard for GraphQL based CRUD
+- *OData 4.0* - non graphql specific
 
 # [Overview](1-overview.md)
-
-**Note** 
-
-This standard is still in progress. 
-Contents bellow are not reflecting actual format of the standard. 
 
 # [Relational](2-crud/2-1-overview.md)
