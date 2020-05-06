@@ -13,12 +13,12 @@ patterns for building standard data driven GraphLQL APIs.
 - Define minimal subset of the CRUD capabilities 
 that every application or developer can consume.
 - Avoid corner cases or specifics of individual CRUD implementations 
-- Define leanient standard based on practices, 
+- Define lenient standard based on practices, 
 that do not enforce specific query or mutation names etc.
 - Provide set of the reference implementations for different languages:
- - JavaScript 
- - Golang
- - Java
+  - JavaScript 
+  - Golang
+  - Java
 
 **Non targets of this spec**
 
@@ -26,7 +26,7 @@ that do not enforce specific query or mutation names etc.
 GraphQL CRUD exposes useful
 - Map CRUD specifics of the popular platforms 
 - Defining best practices for writing GraphQL
-Please check https://graphql-rules.com instad
+Please check https://graphql-rules.com instead
 
 **Adopters** 
 
@@ -46,5 +46,10 @@ Please check https://graphql-rules.com instad
 *OData 4.0* - non graphql specific
 
 # [Overview](1-overview.md)
+
+**Note** 
+
+This standard is still in progress. 
+Contents bellow are not reflecting actual format of the standard. 
 
 # [Relational](2-crud/2-1-overview.md)
