@@ -22,9 +22,9 @@ export const Title = styled.h1`
   opacity: 0;
   line-height: 7rem;
   font-weight: 900;
-  color: #fff ;
-  background: linear-gradient(60deg, #f99f37, #f47d20, #f16223);
-  font-size: 8rem;
+  color: #dc109b	;
+  background: linear-gradient(60deg, #dc109b, #dc109b, #dc109b);
+  font-size: 3rem;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;

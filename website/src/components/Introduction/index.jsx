@@ -9,11 +9,10 @@ export function Introduction() {
         <Row>
           <Flex height="100%" width="50%" color="#fff">
             <div> 
-              <Title>Offline First!</Title>
+              <Title>Patterns for your GraphQL Schema</Title>
               <Paragraph>
-                Offix allows you to execute your GraphQL mutations and queries while your application is offline, 
-                or while the server is unreachable. Offline Mutations are scheduled and persisted across application restarts, 
-                and are replayed when server becomes available again.
+                GraphQL CRUD provides specification for common operations on top of the GraphQL specification.
+                Giving developers out of the box patterns for accessing their data using GraphQL 
               </Paragraph>
             </div>
           </Flex>

@@ -22,9 +22,9 @@ export function Hero({ siteConfig }) {
     <Header>
       <Container style={{ marginTop: '-60px' }}>
         <HeaderImage ref={logo}>
-          <img src="/img/offix-logo.png" alt="logo" />
+          <img src="/img/logo.png" alt="logo" />
         </HeaderImage>
-        <Title ref={title}>Offix</Title>
+        <Title ref={title}>GraphQL CRUD</Title>
         <SubTitle ref={tagline}>{siteConfig.tagline}</SubTitle>
         <CTA ref={cta}>
           <Link

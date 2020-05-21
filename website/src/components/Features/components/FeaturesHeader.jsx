@@ -9,10 +9,8 @@ export function FeaturesHeader() {
         <Content>
           <Title>Features</Title>
           <p>
-            We leverage the <a href="https://www.apollographql.com/">Apollo Cache</a>, 
-            allowing users to see their local changes and to perform fully offline workflows. 
-            Fully featured conflict resolution strategies are provided, as well as interface to build 
-            custom ones, ensuring you can build seamless offline experiences.
+          GraphQL is a flexible query language supporting many different data access patterns.
+          In practice, simple CRUD operations turn out to be a very common pattern. Standardising this very common pattern enables the community to build tooling specific to the common CRUD style API.
           </p>
         </Content>
         <HR />
