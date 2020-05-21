@@ -1,0 +1,22 @@
+{
+  "docs": {
+    "Introduction": [
+      "getting-started",
+      "motivation",
+      "concepts",
+      "tools"
+    ],
+    "Specification": [
+      "spec-create",
+      "spec-read",
+      "spec-update",
+      "spec-delete",
+      "spec-subscriptions",
+      "spec-find",
+      "spec-getOne"
+    ],
+    "Releases": [
+      "release-notes"
+    ]
+  }
+}
