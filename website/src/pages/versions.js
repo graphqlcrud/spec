@@ -1,28 +1,24 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+import React from 'react';
+import Layout from '@theme/Layout';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-const React = require('react');
+import versions from '../../versions.json';
+import { Container } from '../components/UI';
 
-const CompLibrary = require('../../core/CompLibrary');
+export default function Home() {
+  const context = useDocusaurusContext();
+  const { siteConfig = {} } = context;
 
-const Container = CompLibrary.Container;
-
-const CWD = process.cwd();
-
-const versions = require(`${CWD}/versions.json`);
-
-function Versions(props) {
-  const {config: siteConfig} = props;
   const latestVersion = versions[0];
   const repoUrl = `https://github.com/${siteConfig.organizationName}/${siteConfig.projectName}`;
+
   return (
-    <div className="docMainWrapper wrapper">
-      <Container className="mainContainer versionsContainer">
-        <div className="post">
+    <Layout
+      title={siteConfig.title}
+      description="Offix <head />"
+    > 
+      <Container>
+      <div className="post">
           <header className="postHeader">
             <h1>{siteConfig.title} Versions</h1>
           </header>
@@ -36,9 +32,7 @@ function Versions(props) {
                   {/* You are supposed to change this href where appropriate
                         Example: href="<baseUrl>/docs(/:language)/:id" */}
                   <a
-                    href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
-                      props.language ? props.language + '/' : ''
-                    }getting-started`}>
+                    href={`${siteConfig.baseUrl}docs/getting-started`}>
                     Documentation
                   </a>
                 </td>
@@ -60,9 +54,7 @@ function Versions(props) {
                   {/* You are supposed to change this href where appropriate
                         Example: href="<baseUrl>/docs(/:language)/next/:id" */}
                   <a
-                    href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
-                      props.language ? props.language + '/' : ''
-                    }next/getting-started`}>
+                    href={`${siteConfig.baseUrl}docs/next/getting-started`}>
                     Documentation
                   </a>
                 </td>
@@ -77,17 +69,15 @@ function Versions(props) {
           <table className="versions">
             <tbody>
               {versions.map(
-                version =>
+                (version, index) =>
                   version !== latestVersion && (
-                    <tr>
+                    <tr key={index}>
                       <th>{version}</th>
                       <td>
                         {/* You are supposed to change this href where appropriate
                         Example: href="<baseUrl>/docs(/:language)/:version/:id" */}
                         <a
-                          href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
-                            props.language ? props.language + '/' : ''
-                          }${version}/doc1`}>
+                          href={`${siteConfig.baseUrl}docs/${version}/getting-started`}>
                           Documentation
                         </a>
                       </td>
@@ -107,8 +97,6 @@ function Versions(props) {
           </p>
         </div>
       </Container>
-    </div>
+    </Layout>
   );
 }
-
-module.exports = Versions;

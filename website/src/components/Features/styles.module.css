@@ -1,0 +1,53 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+
+@media screen and (max-width: 966px) {
+  .splitContainer {
+    height: 100%;
+  }
+  .leftSplit, .rightSplit {
+    width: 100%;
+  }
+
+  .leftSplit, .splitRow {
+    height: 50vh;
+  }
+
+  .splitRow.before,
+  .splitRow.after {
+    display: none;
+    height: 25vh;
+  }
+
+}
+
+/* .circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+} */
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.featureTitle {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.featureContent {
+  /* padding: 1.5em; */
+  margin: 0 auto;
+  max-width: 75%;
+}
