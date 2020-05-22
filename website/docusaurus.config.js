@@ -3,8 +3,8 @@ const versions = require('./versions.json');
 
 module.exports = {
   title: 'GraphQLCRUD',
-  tagline: 'GraphQLCRUD specification that extends GraphQL with common data access use case',
-  url: 'https://GraphQLCRUD.org',
+  tagline: 'Specification that extends GraphQL with common data access use cases',
+  url: 'https://graphqlcrud.org',
   baseUrl: '/',
   favicon: 'img/logo.png',
 

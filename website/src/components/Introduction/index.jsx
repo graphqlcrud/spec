@@ -9,15 +9,18 @@ export function Introduction() {
         <Row>
           <Flex height="100%" width="50%" color="#fff">
             <div> 
-              <Title>Patterns for your GraphQL Schema</Title>
+              <Title>Standard for exposing data</Title>
               <Paragraph>
-                GraphQL CRUD provides specification for common operations on top of the GraphQL specification.
-                Giving developers out of the box patterns for accessing their data using GraphQL 
+                GraphQL CRUD provides specification for common operations on top of the GraphQL.
+                Giving developers out of the box patterns for accessing their data.
+                Based on the data of public GraphQL APIs and patterns from major GraphQL providers 
+                GraphQL CRUD gives you ultimate guide for your common data access problems without 
+                bringing complexity or limitations to your workflow
               </Paragraph>
             </div>
           </Flex>
           <Flex height="100%" width="50%">
-            <Image src={'img/undraw_contrast.svg'} />
+            <Image src={'img/undraw_portfolio_update.svg'} />
           </Flex>
         </Row>
       </Container>
