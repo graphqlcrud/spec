@@ -2,7 +2,6 @@
   "docs": {
     "Introduction": [
       "getting-started",
-      "motivation",
       "concepts",
       "reference-impl"
     ],
