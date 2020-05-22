@@ -30,10 +30,11 @@ module.exports = {
           label: 'Docs',
           position: 'left',
           items: [
-            {
-              label: versions[0],
-              to: 'docs/getting-started',
-            },
+            // Disable temporarily until we have  version of the spec
+            // {
+            //   label: versions[0],
+            //   to: 'docs/getting-started',
+            // },
             ...versions.slice(1).map((version) => ({
               label: version,
               to: `docs/${version}/getting-started`,

@@ -4,9 +4,10 @@
       "getting-started",
       "motivation",
       "concepts",
-      "tools"
+      "reference-impl"
     ],
     "Specification": [
+      "spec-overview",
       "spec-create",
       "spec-read",
       "spec-update",

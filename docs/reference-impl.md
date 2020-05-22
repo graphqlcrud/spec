@@ -1,5 +1,5 @@
 ---
-id: tools
+id: reference-impl
 title: Reference implementations
 sidebar_label: Implementations
 ---
@@ -37,3 +37,9 @@ Specification was build based on numerous community implementations
 - GraphQL-CLI
 - GraphQL-Serve
 - GraphQL-Create
+
+## Relation to Relay
+
+Relay (https://relay.dev/) provides similar capabilites to GraphQL CRUD.
+However GraphQL CRUD takes more leanient and less verbose approach for building GraphQL Queries.
+Both standard are incompatibile with each other
