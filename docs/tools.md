@@ -6,7 +6,7 @@ sidebar_label: Implementations
 
 GraphQL CRUD can be applied out of the box using https://graphback.dev 
 
-## Reference specifications
+## Reference Implementations
 
 ### Node.js 
 
@@ -25,7 +25,7 @@ In progress
 
 In progress
 
-## Librarires that partialy implement GraphQL CRUD
+## Libraries that partialy implement GraphQL CRUD
 
 Specification was build based on numerous community implementations
 
