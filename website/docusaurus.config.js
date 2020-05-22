@@ -30,7 +30,7 @@ module.exports = {
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
-          to: "docs/getting-started",
+          to: "docs/next/getting-started",
           // items: [
           // Disable temporarily until we have  version of the spec
           // {
