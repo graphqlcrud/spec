@@ -4,8 +4,6 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
- *Working Draft – June 2020*
-
 ## Introduction
 
 GraphQL CRUD is an superset of the GraphQL giving developers
