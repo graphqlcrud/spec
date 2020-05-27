@@ -16,11 +16,14 @@ various operations that can be executed on the set of the objects:
 
 - Create: creation of the object
 - Update: update of the any object properties
-
+- Delete: delete entire object by id 
+- Get: get specific object by id
+- Find: find multiple objects using query
 
 ## Input types
 
-GraphQL CRUD defines common input type categories that can be used in various CRUD methods to define operations
+GraphQL CRUD defines common input type categories that can be used in various CRUD methods to define operations.
+For example Create operation will use specific input type that do not require object ID.
 
 ## Capabilities
 
@@ -42,4 +45,4 @@ of the queries and mutations that can be used for different needs etc.
 GraphQL CRUD provides various extensions for more advanced use cases like:
 
 - Querying Server Side Delta
-- Subscriptions filtering
+- Subscriptions filtering etc.

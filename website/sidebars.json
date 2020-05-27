@@ -8,7 +8,6 @@
     "Specification": [
       "spec-overview",
       "spec-create",
-      "spec-read",
       "spec-update",
       "spec-delete",
       "spec-subscriptions",
