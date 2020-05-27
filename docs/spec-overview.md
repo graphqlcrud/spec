@@ -4,13 +4,11 @@ title: Overview
 sidebar_label: Overview
 ---
 
-Specification 
-
 ## Areas covered
 
 This specification describes all aspects of a flexible GraphQL API suitable for relational databases.
 
-## Focus on API, not implementation/runtime characteristics
+## Focus on API
 
 GraphQLCRUD is a collection of specifications for GraphQL APIs that are designed to work well with specific database technologies. GraphQLCRUD is concerned with the API surface, not the implementation. As such two implementations of GraphQLCRUD could choose to store data in different ways, but applications interacting with the data through the GraphQLCRUD API wouldn't be able to tell the difference.
 
