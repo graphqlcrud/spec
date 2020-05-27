@@ -1,7 +1,6 @@
 ---
 id: spec-update
-title: spec-update
-sidebar_label: spec-update
+title: Update Operation
 ---
 
 ## Update Specification

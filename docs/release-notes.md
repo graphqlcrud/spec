@@ -1,11 +1,11 @@
 ---
 id: release-notes
 title: Releases
-sidebar_label: release-notes
+sidebar_label: Spec Releases
 ---
 
 
-### Draft
+### Early Draft 2020
 
 - Definition of the concepts and crud methods
 - Added initial versions without support for different variations

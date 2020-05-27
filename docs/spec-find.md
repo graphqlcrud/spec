@@ -1,7 +1,6 @@
 ---
 id: spec-find
-title: spec-find
-sidebar_label: spec-find
+title: Find Operation
 ---
 
 ## Find multiple objects Specification

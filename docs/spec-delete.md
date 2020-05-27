@@ -1,7 +1,6 @@
 ---
 id: spec-delete
 title: Delete operation
-sidebar_label: spec-delete
 ---
 
 ## Delete Specification

@@ -10,9 +10,9 @@
       "spec-create",
       "spec-update",
       "spec-delete",
-      "spec-subscriptions",
       "spec-find",
-      "spec-getOne"
+      "spec-getOne",
+      "spec-subscriptions"
     ],
     "Releases": [
       "release-notes"
