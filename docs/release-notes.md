@@ -1,7 +1,11 @@
 ---
 id: release-notes
-title: release-notes
-sidebar_label: release-notes
+title: Releases
+sidebar_label: Spec Releases
 ---
 
-release-notes TODO
+
+### Early Draft 2020
+
+- Definition of the concepts and crud methods
+- Added initial versions without support for different variations
