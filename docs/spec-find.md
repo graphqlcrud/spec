@@ -24,6 +24,7 @@ input NoteFilter {
   or: [NoteFilter]
   not: NoteFilter
 }
+```
 
 OrderBy input type:
 ```graphql

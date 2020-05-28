@@ -38,11 +38,5 @@ how queries can be defined. Good example of this capabilities are:
 ## Variations
 
 Apart from reference implementation GraphQL CRUD provides different variations 
-of the queries and mutations that can be used for different needs etc.
+of the queries and mutations that can be used for different needs.
 
-## Extensions
-
-GraphQL CRUD provides various extensions for more advanced use cases like:
-
-- Querying Server Side Delta
-- Subscriptions filtering etc.

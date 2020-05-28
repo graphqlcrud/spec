@@ -17,7 +17,7 @@ type Note {
 }
 ```
 
-Following mutation will be created:
+Following mutation can be used
 ```graphql
 type Mutation {
     deleteNote(input: MutateNoteInput!): Note!
@@ -51,6 +51,6 @@ Input type for filtering has all fields marked as optional
 ```graphql
 input DeleteNoteFilter {
   title: StringInput
-  description: String
+  description: StringInput
 }
 ```

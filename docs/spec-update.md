@@ -17,7 +17,7 @@ type Note {
 }
 ```
 
-Following mutation will be created:
+Following mutation can be used
 ```graphql
 type Mutation {
     updateNote(input: MutateNoteInput!): Note!

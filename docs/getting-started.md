@@ -34,7 +34,7 @@ returns:
 GraphQL is a flexible query language supporting many different data access patterns. 
 For most of the projects CRUD operations turn out to be a very common pattern. Defining this very common pattern enables the community to build tooling specific to the common CRUD style API.
 
-## Targets of this spec
+## Targets of GraphQLCRUD
 
 1. Define minimal subset of the CRUD capabilities 
 that every application or developer can consume.
@@ -46,7 +46,7 @@ that do not enforce specific query or mutation names etc.
 implementation
 6. Provide capabilities available in vanilla GraphQL (no preprocessors, helpers, annotations etc.)
 
-## Non targets of this spec
+## Non targets of GraphQLCRUD
 
 1. Define every possible method to map database or SQL Capabilities
 
