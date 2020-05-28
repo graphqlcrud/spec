@@ -19,6 +19,8 @@ Filter input type:
 input NoteFilter {
   id: IDInput
   title: StringInput
+  clickCount: IntInput
+  floatValue: FloatInput
   description: StringInput
   and: [NoteFilter]
   or: [NoteFilter]
@@ -31,6 +33,11 @@ OrderBy input type:
 input OrderByInput {
   field: String!
   order: SortDirectionEnum = ASC
+}
+
+enum SortDirectionEnum {
+  DESC
+  ASC
 }
 ```
 
@@ -48,6 +55,31 @@ input StringInput {
   contains: String
   startsWith: String
   endsWith: String
+}
+
+input BooleanInput {
+  ne: String
+  eq: String
+}
+
+input FloatInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  in: [String]
+}
+
+input IntInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  in: [String]
 }
 ```
 
