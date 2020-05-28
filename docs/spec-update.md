@@ -36,7 +36,7 @@ input MutateNoteInput {
 
 ## Variations
 
-### Contidional updates
+### Conditional updates
 
 Conditional updates can be enabled for the cases where we want to perform update 
 operation only after meeting certain criteria
