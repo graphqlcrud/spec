@@ -18,7 +18,7 @@ Examples are used throughout this spec to show the final schema generated for a 
 
 ## Naming
 
-GraphQLCRUD does not specify how fields generated for each data type must be named. It is up to each GraphQLCRUD implementation define a naming system. The reference implementation uses the naming convention as listed in the example queries
+GraphQLCRUD does not specify how fields generated for each data type must be named. It is up to each GraphQLCRUD implementation to define a naming system. The reference implementation uses the naming convention as listed in the example queries
 
 ## Base schema
 

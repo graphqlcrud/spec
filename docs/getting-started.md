@@ -32,7 +32,7 @@ returns:
 ## Rationale
 
 GraphQL is a flexible query language supporting many different data access patterns. 
-For most of the projects CRUD operations turn out to be a very common pattern. Definifing this very common pattern enables the community to build tooling specific to the common CRUD style API.
+For most of the projects CRUD operations turn out to be a very common pattern. Defining this very common pattern enables the community to build tooling specific to the common CRUD style API.
 
 ## Targets of this spec
 
@@ -51,7 +51,7 @@ implementation
 1. Define every possible method to map database or SQL Capabilities
 
 Over the years we seen issues with developers adopting very open CRUD capabilities on the client. 
-There is no silverbullet that will give developers both flexiblity of the query capabilities on the client 
+There is no silver bullet that will give developers both flexiblity of the query capabilities on the client 
 and underlying security and control over what data is exposed to the public. 
 That is why we define only the most common use cases and do not target to provide mapping to every capability that database exposes.
 

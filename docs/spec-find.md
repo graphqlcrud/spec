@@ -9,7 +9,7 @@ Find operation can be respresented as follows
 
 ```graphql
 type Query {
-  findNotes(filter: NoteFilter, orderBy: OrderByInput): [Note]!
+  findNotes(filter: NoteFilter, orderBy: OrderByInput): [NoteResultList]!
 }
 ```
 
