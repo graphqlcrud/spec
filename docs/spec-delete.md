@@ -3,7 +3,7 @@ id: spec-delete
 title: Delete operation
 ---
 
-## Delete Specification
+## Delete Operation
 
 Delete operation is enabled accepting single inputType as arguments
 
@@ -44,7 +44,7 @@ operation only after meeting certain criteria
 
 ```graphql
 type Mutation {
-  deleteNote(input: DeleteNoteInput!, where: DeleteNoteFilter): Note!
+  deleteNote(input: MutateNoteInput!, where: DeleteNoteFilter): Note!
 }
 ```
 Input type for filtering has all fields marked as optional

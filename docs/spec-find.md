@@ -52,7 +52,7 @@ input StringInput {
 
 For ID type input will look as follows:
 ```graphql
-input IdInput {
+input IDInput {
   ne: ID
   eq: ID
 }
@@ -81,4 +81,3 @@ input PageRequest {
   offset: Int
 }
 ```
-
