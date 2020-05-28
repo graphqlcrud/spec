@@ -1,5 +1,5 @@
 ---
-id: reference-impl
+id: reference
 title: Reference implementations
 sidebar_label: Implementations
 ---

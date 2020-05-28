@@ -1,5 +1,5 @@
 ---
-id: spec-find
+id: find
 title: Find Operation
 ---
 

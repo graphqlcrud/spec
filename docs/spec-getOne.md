@@ -1,5 +1,5 @@
 ---
-id: spec-getOne
+id: getOne
 title: Get Operation
 sidebar_label: Get Operation
 ---

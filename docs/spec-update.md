@@ -1,5 +1,5 @@
 ---
-id: spec-update
+id: update
 title: Update Operation
 ---
 

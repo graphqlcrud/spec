@@ -1,5 +1,5 @@
 ---
-id: release-notes
+id: release
 title: Releases
 sidebar_label: Spec Releases
 ---

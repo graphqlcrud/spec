@@ -1,5 +1,5 @@
 ---
-id: spec-subscriptions
+id: subscriptions
 title: Subscriptions
 ---
 

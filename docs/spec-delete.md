@@ -1,5 +1,5 @@
 ---
-id: spec-delete
+id: delete
 title: Delete operation
 ---
 

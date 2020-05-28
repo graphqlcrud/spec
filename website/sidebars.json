@@ -3,19 +3,19 @@
     "Introduction": [
       "getting-started",
       "concepts",
-      "reference-impl"
+      "reference"
     ],
     "Specification": [
-      "spec-overview",
-      "spec-create",
-      "spec-update",
-      "spec-delete",
-      "spec-find",
-      "spec-getOne",
-      "spec-subscriptions"
+      "overview",
+      "create",
+      "update",
+      "delete",
+      "find",
+      "getOne",
+      "subscriptions"
     ],
     "Releases": [
-      "release-notes"
+      "release"
     ]
   }
 }

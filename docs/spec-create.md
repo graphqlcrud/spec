@@ -1,5 +1,5 @@
 ---
-id: spec-create
+id: create
 title: Create Operation
 sidebar_label: Create Operation
 ---
