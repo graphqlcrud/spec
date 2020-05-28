@@ -23,7 +23,7 @@ various operations that can be executed on the set of the objects:
 ## Input types
 
 GraphQL CRUD defines common input type categories that can be used in various CRUD methods to define operations.
-For example Create operation will use specific input type that do not require object ID.
+For example Create operation will use specific input type that does not require object ID.
 
 ## Capabilities
 
