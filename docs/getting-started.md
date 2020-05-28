@@ -7,7 +7,7 @@ sidebar_label: Getting Started
 ## Introduction
 
 GraphQL CRUD is a superset of GraphQL giving developers
-patterns for building standard data driven GraphLQL APIs.
+patterns for building standard data driven GraphQL APIs.
 GraphQLCRUD is a fully [GraphQL compliant](http://facebook.github.io/graphql/) query language that provides patterns for accessing and modification of the data. 
 For example, this GraphQLCRUD query retrieves a single user:
 
@@ -65,4 +65,3 @@ however it is not focusing tightly on any specific provider itself.
 
 GraphQL CRUD focuses only on providing CRUD capaiblities. 
 For general rules for GraphQL schemas see [GraphQL Rules](https://graphql-rules.com)
-
