@@ -7,7 +7,6 @@ Subscriptions are divided to 3 different groups of changes.
 
 Create, Update and Delete subscriptions can be used with filtering capabilities
 
-
 ```graphql
 input NoteSubscriptionFilter {
   id: IDInput

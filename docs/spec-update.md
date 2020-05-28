@@ -8,6 +8,7 @@ title: Update Operation
 Update operation is enabled accepting single inputType as arguments
 
 For `Note` type:
+
 ```graphql
 type Note {
   id: ID!
@@ -18,6 +19,7 @@ type Note {
 ```
 
 Following mutation can be used
+
 ```graphql
 type Mutation {
     updateNote(input: MutateNoteInput!): Note!
@@ -25,6 +27,7 @@ type Mutation {
 ```
 
 Input type for update operation looks as follows
+
 ```graphql
 input MutateNoteInput {
   # ID field is required for update

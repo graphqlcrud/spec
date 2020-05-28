@@ -9,6 +9,7 @@ sidebar_label: Create Operation
 Create operation is enabled accepting single inputType as argument
 
 For `Note` type:
+
 ```graphql
 type Note {
   id: ID!
@@ -19,6 +20,7 @@ type Note {
 ```
 
 Following mutation can be used
+
 ```graphql
 type Mutation {
   createNote(input: CreateNoteInput!): Note!
@@ -26,6 +28,7 @@ type Mutation {
 ```
 
 Input type for create operation looks as follows:
+
 ```graphql
 input CreateNoteInput {
   ## To support client side id creation

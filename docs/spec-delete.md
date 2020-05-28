@@ -8,6 +8,7 @@ title: Delete operation
 Delete operation is enabled accepting single inputType as arguments
 
 For `Note` type:
+
 ```graphql
 type Note {
   id: ID!
@@ -18,6 +19,7 @@ type Note {
 ```
 
 Following mutation can be used
+
 ```graphql
 type Mutation {
     deleteNote(input: MutateNoteInput!): Note!
@@ -47,7 +49,9 @@ type Mutation {
   deleteNote(input: MutateNoteInput!, where: DeleteNoteFilter): Note!
 }
 ```
+
 Input type for filtering has all fields marked as optional
+
 ```graphql
 input DeleteNoteFilter {
   title: StringInput
