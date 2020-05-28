@@ -44,7 +44,7 @@ that every application or developer can consume.
 that do not enforce specific query or mutation names etc.
 5. Provide set of the reference implementations for *different programming languages* in case you want to adopt reference
 implementation
-6. Provide capabilities available in vanila GraphQL (no preprocessors, helpers, annotations etc.)
+6. Provide capabilities available in vanilla GraphQL (no preprocessors, helpers, annotations etc.)
 
 ## Non targets of this spec
 
@@ -64,6 +64,5 @@ however it is not focusing tightly on any specific provider itself.
 3) Defining best practices for writing GraphQL schemas
 
 GraphQL CRUD focuses only on providing CRUD capaiblities. 
-For general rules for GraphQL schemas please ses: https://graphql-rules.com 
-
+For general rules for GraphQL schemas see [GraphQL Rules](https://graphql-rules.com)
 

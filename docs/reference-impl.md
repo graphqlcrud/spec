@@ -10,12 +10,12 @@ GraphQL CRUD can be applied out of the box using https://graphback.dev
 
 ### Node.js 
 
-Graphback (https://graphback.dev) provides ability to generate schema that will be fully compatible with the 
+[Graphback](https://graphback.dev) provides ability to generate schema that will be fully compatible with the 
 GraphQLCRUD and also connect it directly to Postgress, MongoDB and other datasources without writing any code.
 
 ### JavaScript
 
-Offix (https://offix.dev) provides reference implementation for the delta sync queries and implements GraphQL CRUD on the client side.
+[Offix](https://offix.dev) provides reference implementation for the delta sync queries and implements GraphQL CRUD on the client side.
 
 
 ## Libraries that partialy implement GraphQL CRUD
@@ -29,7 +29,7 @@ Specification was build based on numerous community implementations
 - SQLMancer
 - TypeORM
 - GraphCMS
-- GraphQL-cli
+- GraphQL CLI
 - GraphQL-serve
 - create-graphql
 
