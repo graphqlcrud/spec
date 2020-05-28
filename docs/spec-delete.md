@@ -50,7 +50,7 @@ type Mutation {
 Input type for filtering has all fields marked as optional
 ```graphql
 input DeleteNoteFilter {
-  title: String
+  title: StringInput
   description: String
 }
 ```
