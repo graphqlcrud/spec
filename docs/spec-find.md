@@ -15,6 +15,7 @@ type Query {
 
 Finding objects can be done by creating numerous helpers.
 Filter input type:
+
 ```graphql
 input NoteFilter {
   id: IDInput
@@ -43,6 +44,7 @@ enum SortDirectionEnum {
 
 To enable filtering for specific Scalars we can create individual InputTypes.
 For example for String scalar this could be:
+
 ```graphql
 input StringInput {
   ne: String
@@ -84,6 +86,7 @@ input IntInput {
 ```
 
 For ID type input will look as follows:
+
 ```graphql
 input IDInput {
   ne: ID
