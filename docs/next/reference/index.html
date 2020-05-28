@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.55">
 <title data-react-helmet="true">Reference implementations | GraphQLCRUD</title><meta data-react-helmet="true" name="docsearch:version" content="next"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="Reference implementations | GraphQLCRUD"><meta data-react-helmet="true" name="description" content="GraphQL CRUD can be applied out of the box using https://graphback.dev"><meta data-react-helmet="true" property="og:description" content="GraphQL CRUD can be applied out of the box using https://graphback.dev"><meta data-react-helmet="true" property="og:url" content="https://graphqlcrud.org/docs/next/reference"><link data-react-helmet="true" rel="shortcut icon" href="/img/logo.png"><link data-react-helmet="true" rel="canonical" href="https://graphqlcrud.org/docs/next/reference"><link rel="stylesheet" href="/styles.6144d65a.css">
-<link rel="preload" href="/styles.c1e03314.js" as="script">
-<link rel="preload" href="/runtime~main.243cb42a.js" as="script">
-<link rel="preload" href="/main.c087026c.js" as="script">
-<link rel="preload" href="/common.f04d6495.js" as="script">
-<link rel="preload" href="/14.0497450d.js" as="script">
-<link rel="preload" href="/c6c6e257.8e8c5a19.js" as="script">
-<link rel="preload" href="/db48cc6d.a1d5f882.js" as="script">
+<link rel="preload" href="/styles.622db6a5.js" as="script">
+<link rel="preload" href="/runtime~main.bc4a5462.js" as="script">
+<link rel="preload" href="/main.b497f17a.js" as="script">
+<link rel="preload" href="/1.b73079f4.js" as="script">
+<link rel="preload" href="/2.88c2ea8c.js" as="script">
+<link rel="preload" href="/21.e074039d.js" as="script">
+<link rel="preload" href="/c6c6e257.63fab8a0.js" as="script">
+<link rel="preload" href="/db48cc6d.390345f4.js" as="script">
 </head>
 <body>
 <div id="__docusaurus">
@@ -19,12 +20,13 @@
 GraphQLCRUD and also connect it directly to Postgress, MongoDB and other datasources without writing any code.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="javascript"></a>JavaScript<a aria-hidden="true" tabindex="-1" class="hash-link" href="#javascript" title="Direct link to heading">#</a></h3><p><a href="https://offix.dev">Offix</a> provides reference implementation for the delta sync queries and implements GraphQL CRUD on the client side.</p><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="libraries-that-partialy-implement-graphql-crud"></a>Libraries that partialy implement GraphQL CRUD<a aria-hidden="true" tabindex="-1" class="hash-link" href="#libraries-that-partialy-implement-graphql-crud" title="Direct link to heading">#</a></h2><p>Specification was build based on numerous community implementations</p><ul><li>AWS AppSync</li><li>Prisma </li><li>Hasura </li><li>Postgraphile</li><li>SQLMancer</li><li>TypeORM</li><li>GraphCMS</li><li>GraphQL CLI</li><li>GraphQL-serve</li><li>create-graphql</li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="relation-to-relay"></a>Relation to Relay<a aria-hidden="true" tabindex="-1" class="hash-link" href="#relation-to-relay" title="Direct link to heading">#</a></h2><p>Relay (<a href="https://relay.dev/">https://relay.dev/</a>) provides similar capabilites to GraphQL CRUD.
 However GraphQL CRUD takes more leanient and less verbose approach for building GraphQL Queries.
 Both standard are incompatibile with each other</p></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/aerogear/GraphQLCRUD/edit/master/website/../docs/reference.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/next/concepts"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« Concepts</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/next/overview"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Overview »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#reference-implementations" class="table-of-contents__link">Reference Implementations</a><ul><li><a href="#nodejs" class="table-of-contents__link">Node.js</a></li><li><a href="#javascript" class="table-of-contents__link">JavaScript</a></li></ul></li><li><a href="#libraries-that-partialy-implement-graphql-crud" class="table-of-contents__link">Libraries that partialy implement GraphQL CRUD</a></li><li><a href="#relation-to-relay" class="table-of-contents__link">Relation to Relay</a></li></ul></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/getting-started">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/release-notes">Releases</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://github.com/GraphQLCRUD/spec">GitHub</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://discordapp.com/invite/mJ7j84m">Discord</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://aerogear.org/" target="_blank" rel="noopener noreferrer" class="footerLogoLink_1Wg7"><img class="footer__logo" alt="AeroGear Logo" src="/img/aerogear.png"></a></div><div>Copyright © 2020 AeroGear</div></div></div></footer></div>
-<script src="/styles.c1e03314.js"></script>
-<script src="/runtime~main.243cb42a.js"></script>
-<script src="/main.c087026c.js"></script>
-<script src="/common.f04d6495.js"></script>
-<script src="/14.0497450d.js"></script>
-<script src="/c6c6e257.8e8c5a19.js"></script>
-<script src="/db48cc6d.a1d5f882.js"></script>
+<script src="/styles.622db6a5.js"></script>
+<script src="/runtime~main.bc4a5462.js"></script>
+<script src="/main.b497f17a.js"></script>
+<script src="/1.b73079f4.js"></script>
+<script src="/2.88c2ea8c.js"></script>
+<script src="/21.e074039d.js"></script>
+<script src="/c6c6e257.63fab8a0.js"></script>
+<script src="/db48cc6d.390345f4.js"></script>
 </body>
 </html>
