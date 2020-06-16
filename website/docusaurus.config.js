@@ -66,7 +66,7 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "docs/getting-started",
+              to: "docs/next/getting-started",
             },
             {
               label: "Releases",

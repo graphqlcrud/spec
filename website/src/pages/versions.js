@@ -32,7 +32,7 @@ export default function Home() {
                   {/* You are supposed to change this href where appropriate
                         Example: href="<baseUrl>/docs(/:language)/:id" */}
                   <a
-                    href={`${siteConfig.baseUrl}docs/getting-started`}>
+                    href={`${siteConfig.baseUrl}docs/next/getting-started`}>
                     Documentation
                   </a>
                 </td>
