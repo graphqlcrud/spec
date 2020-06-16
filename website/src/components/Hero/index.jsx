@@ -29,7 +29,7 @@ export function Hero({ siteConfig }) {
         <CTA ref={cta}>
           <Link
             className="button button--primary button--lg button--rounded"
-            to={useBaseUrl('docs/next/getting-started')}>
+            to={useBaseUrl('docs/next/gettingstarted')}>
             Get Started
           </Link>
         </CTA>

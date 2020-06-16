@@ -32,7 +32,7 @@ export default function Home() {
                   {/* You are supposed to change this href where appropriate
                         Example: href="<baseUrl>/docs(/:language)/:id" */}
                   <a
-                    href={`${siteConfig.baseUrl}docs/next/getting-started`}>
+                    href={`${siteConfig.baseUrl}docs/next/gettingstarted`}>
                     Documentation
                   </a>
                 </td>
@@ -54,7 +54,7 @@ export default function Home() {
                   {/* You are supposed to change this href where appropriate
                         Example: href="<baseUrl>/docs(/:language)/next/:id" */}
                   <a
-                    href={`${siteConfig.baseUrl}docs/next/getting-started`}>
+                    href={`${siteConfig.baseUrl}docs/next/gettingstarted`}>
                     Documentation
                   </a>
                 </td>
@@ -77,7 +77,7 @@ export default function Home() {
                         {/* You are supposed to change this href where appropriate
                         Example: href="<baseUrl>/docs(/:language)/:version/:id" */}
                         <a
-                          href={`${siteConfig.baseUrl}docs/${version}/getting-started`}>
+                          href={`${siteConfig.baseUrl}docs/${version}/gettingstarted`}>
                           Documentation
                         </a>
                       </td>
