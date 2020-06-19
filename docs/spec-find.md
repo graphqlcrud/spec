@@ -5,7 +5,37 @@ title: Find Operation
 
 ## Find multiple objects Specification
 
-Find operation can be respresented as follows
+Find operation allows to fetch multiple objects from the database using filtering, sorting and pagination capabilities.
+
+## Filtering
+
+Boolean operations supported in filter:
+- AND
+- NOT
+- OR
+
+Matematical operators supported in filter
+- Not Equals: '&#60;&#62;'
+- Equals: '='
+- Less or Equals: '<='
+- Less: '<'
+- Greater Equals: '>=
+- Greater: '>'
+
+
+String opperations supported in filter
+
+- Contains: 'like'
+- Startswith: 'like'
+- Endswith: 'like'
+
+
+Capabilities not supported
+
+- Sorting by multiple fields
+- Aggregation (Group by) apart from counting 
+
+## Example query
 
 ```graphql
 type Query {
