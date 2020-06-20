@@ -13,7 +13,12 @@
       "find",
       "getOne",
       "subscriptions",
-      "datasync"
+      {
+        "Delta Queries": [
+          "spec-datasync/delta-queries",
+          "spec-datasync/conflict-resolution"
+        ]
+      }
     ],
     "Releases": [
       "release"
