@@ -12,7 +12,8 @@
       "delete",
       "find",
       "getOne",
-      "subscriptions"
+      "subscriptions",
+      "datasync"
     ],
     "Releases": [
       "release"
