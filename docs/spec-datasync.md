@@ -23,7 +23,14 @@ type Comment {
   description: String
 }
 
+type Query {
+  syncComments(lastSync: String!, filter: CommentFilter): CommentDeltaList!
+}
+```
 
+In the above example, the delta query is `syncComments` which returns a list of `CommentDelta` type:
+
+```graphql
 type CommentDelta {
   id: ID!
   text: String
@@ -37,11 +44,9 @@ type CommentDeltaList {
   items: [CommentDelta]!
   lastSync: String
 }
-
-type Query {
-  ...
-  syncComments(lastSync: String!, filter: CommentFilter): CommentDeltaList!
-}
 ```
 
-In the above example, the delta query is `syncComments` which returns a list of `CommentDelta` type, each object of this list is a snapshot of the current state of the row/document in the database, along with the timestamps that show when it was last changed(`updatedAt`), and when it was created(`createdAt`). It also provides info on if the row was deleted(`_deleted`), in which case the `updatedAt` timestamp says when it was deleted.
+Each object of this list is a snapshot of the current state of the row/document in the database, along with the timestamps that show when it was last changed(`updatedAt`), and when it was created(`createdAt`). It also provides info on if the row was deleted(`_deleted`), in which case the `updatedAt` timestamp says when it was deleted.
+
+The objects to be fetched in the delta query can also be filtered by using the `filter` argument 
+which would work exactly like the filter in the [find](./spec-find.md) query.
