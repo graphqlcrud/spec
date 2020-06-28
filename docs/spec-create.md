@@ -4,11 +4,11 @@ title: Create Operation
 sidebar_label: Create Operation
 ---
 
-## Create Specification
+## Create Operation
 
-Create operation is enabled accepting single inputType as argument
+The create operation accepts a single input type as argument.
 
-For `Note` type:
+For example, given a `Note` type like:
 
 ```graphql
 type Note {
@@ -19,7 +19,7 @@ type Note {
 }
 ```
 
-Following mutation can be used
+The following mutation can be used:
 
 ```graphql
 type Mutation {
@@ -27,11 +27,11 @@ type Mutation {
 }
 ```
 
-Input type for create operation looks as follows:
+The input type for this create operation looks as follows:
 
 ```graphql
 input CreateNoteInput {
-  ## To support client side id creation
+  ## To support client side ID creation
   id: ID
   title: String!
   description: String

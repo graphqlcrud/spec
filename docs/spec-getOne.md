@@ -4,10 +4,11 @@ title: Get Operation
 sidebar_label: Get Operation
 ---
 
-## Get single object 
+## Get Operation
 
-Fetching an object by id can be enabled by specifying id as element. 
-Id can represent any particular id that object has
+Fetching an object by ID can be enabled by specifying an `id` argument. 
+The ID can represent any unique field that object has.
+
 For the Note type, this can be:
 
 ```graphql

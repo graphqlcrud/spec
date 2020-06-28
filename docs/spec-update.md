@@ -3,11 +3,11 @@ id: update
 title: Update Operation
 ---
 
-## Update Specification
+## Update Operation
 
-Update operation is enabled accepting single inputType as arguments
+The update operation accepts a single input type as an argument.
 
-For `Note` type:
+For example, given a `Note` type like:
 
 ```graphql
 type Note {
@@ -18,7 +18,7 @@ type Note {
 }
 ```
 
-Following mutation can be used
+The following mutation can be used:
 
 ```graphql
 type Mutation {
@@ -26,7 +26,7 @@ type Mutation {
 }
 ```
 
-Input type for update operation looks as follows
+The input type for this delete operation looks as follows:
 
 ```graphql
 input MutateNoteInput {
@@ -41,15 +41,17 @@ input MutateNoteInput {
 
 ### Conditional updates
 
-Conditional updates can be enabled for the cases where we want to perform update 
-operation only after meeting certain criteria
+Conditional updates can be enabled for cases where we want to perform an update 
+operation only after meeting certain criteria.
 
 ```graphql
 type Mutation {
   updateNote(input: MutateNoteInput!, where: UpdateNoteFilter): Note!
 }
 ```
-Input type for filtering has all fields marked as optional
+
+Unlike the previous example, the input type for filtering has all fields marked as optional.
+
 ```graphql
 input UpdateNoteFilter {
   title: String

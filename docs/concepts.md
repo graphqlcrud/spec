@@ -4,39 +4,34 @@ title: Concepts
 sidebar_label: Concepts
 ---
 
-## Specification concepts
-
-Specification uses following vocabulary to define GraphQL queries
-
-
-## CRUD method
+## CRUD methods
 
 GraphQL CRUD defines different CRUD capabilities that represents 
-various operations that can be executed on the set of the objects:
+various operations that can be executed on a set of objects:
 
-- Create: creation of the object
-- Update: update of the any object properties
-- Delete: delete entire object by id 
-- Get: get specific object by id
-- Find: find multiple objects using query
+- Create: create an object
+- Update: update a specific object's properties
+- Delete: delete a specific object by its ID 
+- Get: get a specific object by its ID
+- Find: find multiple objects
 
 ## Input types
 
 GraphQL CRUD defines common input type categories that can be used in various CRUD methods to define operations.
-For example Create operation will use specific input type that does not require object ID.
+For example, the Create operation will use a specific input type that does not require an object ID.
 
 ## Capabilities
 
 GraphQL CRUD defines different capabilities that developers can enable to modify 
-how queries can be defined. Good example of this capabilities are:
+what queries can be made against the service. Examples of these capabilities include:
 
 - Pagination: Ability to paginate content
 - Filtering: Ability to peform filtering on specific fields
-- Countability: Ability to count number of entire for query
-- Consistency: Ability to verify if write operation is not overriding data.
+- Countability: Ability to count the total number of objects
+- Consistency: Ability to verify whether a write operation is overriding data
 
 ## Variations
 
-Apart from reference implementation GraphQL CRUD provides different variations 
-of the queries and mutations that can be used for different needs.
+Apart from a reference implementation, GraphQL CRUD provides different variations 
+of the provided queries and mutations that can be used for different needs.
 
