@@ -22,7 +22,7 @@ The following mutation can be used:
 
 ```graphql
 type Mutation {
-    updateNote(input: MutateNoteInput!): Note!
+    updateNote(input: MutateNoteInput!): Note
 }
 ```
 
