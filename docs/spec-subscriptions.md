@@ -3,9 +3,11 @@ id: subscriptions
 title: Subscriptions
 ---
 
-Subscriptions are divided to 3 different groups of changes.
+## Subscriptions
 
-Create, Update and Delete subscriptions can be used with filtering capabilities
+Subscriptions are divided to three different groups of changes: Create, Update and Delete.
+
+Subscriptions can be used with filtering to only receive events that match the provide filter.
 
 ```graphql
 input NoteSubscriptionFilter {

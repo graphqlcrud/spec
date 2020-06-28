@@ -3,37 +3,35 @@ id: find
 title: Find Operation
 ---
 
-## Find multiple objects Specification
+## Find Operation
 
-Find operation allows to fetch multiple objects from the database using filtering, sorting and pagination capabilities.
+The find operation allows the client to fetch multiple objects from the database using filtering, sorting and pagination capabilities.
 
 ## Filtering
 
-Boolean operations supported in filter:
+Boolean operators supported when filtering:
 - AND
 - NOT
 - OR
 
-Matematical operators supported in filter
-- Not Equals: '&#60;&#62;'
-- Equals: '='
-- Less or Equals: '<='
-- Less: '<'
-- Greater Equals: '>=
-- Greater: '>'
+Matematical operators supported when filtering:
+- Not equal: '&#60;&#62;'
+- Equal: '='
+- Less than or equal: '<='
+- Less than: '<'
+- Greater than or equal: '>='
+- Greater than: '>'
 
-
-String opperations supported in filter
+String opperations supported when filtering:
 
 - Contains: 'like'
-- Startswith: 'like'
-- Endswith: 'like'
+- Starts with: 'like'
+- Ends with: 'like'
 
-
-Capabilities not supported
+Capabilities not supported:
 
 - Sorting by multiple fields
-- Aggregation (Group by) apart from counting 
+- Aggregation apart from counting 
 
 ## Example query
 
@@ -43,8 +41,7 @@ type Query {
 }
 ```
 
-Finding objects can be done by creating numerous helpers.
-Filter input type:
+Input type for `filter` argument:
 
 ```graphql
 input NoteFilter {
@@ -59,7 +56,8 @@ input NoteFilter {
 }
 ```
 
-OrderBy input type:
+Input type for `orderBy` argument:
+
 ```graphql
 input OrderByInput {
   field: String!
@@ -72,7 +70,7 @@ enum SortDirectionEnum {
 }
 ```
 
-To enable filtering for specific Scalars we can create individual InputTypes.
+To enable filtering by specific scalar fields, we can create individual input types for each scalar:
 For example, for the five built-in Scalars this could be:
 
 ```graphql
