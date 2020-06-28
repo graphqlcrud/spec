@@ -1,6 +1,6 @@
 ---
 id: delete
-title: Delete operation
+title: Delete Operation
 ---
 
 ## Delete Operation
