@@ -73,7 +73,7 @@ enum SortDirectionEnum {
 ```
 
 To enable filtering for specific Scalars we can create individual InputTypes.
-For example for String scalar this could be:
+For example, for the five built-in Scalars this could be:
 
 ```graphql
 input StringInput {
@@ -83,44 +83,41 @@ input StringInput {
   lt: String
   ge: String
   gt: String
-  in: [String]
+  in: [String!]
   contains: String
   startsWith: String
   endsWith: String
 }
 
 input BooleanInput {
-  ne: String
-  eq: String
+  ne: Boolean
+  eq: Boolean
 }
 
 input FloatInput {
-  ne: String
-  eq: String
-  le: String
-  lt: String
-  ge: String
-  gt: String
-  in: [String]
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  in: [Float!]
 }
 
 input IntInput {
-  ne: String
-  eq: String
-  le: String
-  lt: String
-  ge: String
-  gt: String
-  in: [String]
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  in: [Int!]
 }
-```
 
-For ID type input will look as follows:
-
-```graphql
 input IDInput {
   ne: ID
   eq: ID
+  in: [ID!]
 }
 ```
 
