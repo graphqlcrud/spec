@@ -50,8 +50,8 @@ input NoteFilter {
   clickCount: IntInput
   floatValue: FloatInput
   description: StringInput
-  and: [NoteFilter]
-  or: [NoteFilter]
+  and: [NoteFilter!]
+  or: [NoteFilter!]
   not: NoteFilter
 }
 ```

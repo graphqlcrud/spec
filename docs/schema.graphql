@@ -12,8 +12,8 @@ input CommentFilter {
   text: StringInput
   description: StringInput
   noteId: IDInput
-  and: [CommentFilter]
-  or: [CommentFilter]
+  and: [CommentFilter!]
+  or: [CommentFilter!]
   not: CommentFilter
 }
 
@@ -50,7 +50,7 @@ input IDInput {
   lt: ID
   ge: ID
   gt: ID
-  in: [ID]
+  in: [ID!]
   contains: ID
   startsWith: ID
   endsWith: ID
@@ -92,8 +92,8 @@ input NoteFilter {
   id: IDInput
   title: StringInput
   description: StringInput
-  and: [NoteFilter]
-  or: [NoteFilter]
+  and: [NoteFilter!]
+  or: [NoteFilter!]
   not: NoteFilter
 }
 
@@ -139,7 +139,7 @@ input StringInput {
   lt: String
   ge: String
   gt: String
-  in: [String]
+  in: [String!]
   contains: String
   startsWith: String
   endsWith: String
