@@ -13,7 +13,7 @@ For example, this GraphQL CRUD query retrieves a single user:
 
 ```graphql
 {
-  user(where: { id: 4 }) {
+  getUser(id: 4) {
     name
   }
 }
