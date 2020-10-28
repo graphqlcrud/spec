@@ -8,13 +8,13 @@ export const features = [
     description: (
       <>
        Check specification for patterns and pick only those that will really 
-       work for your specifc database or business requirements
+       work for your specific database or business requirements
       </>
     ),
   },
   {
     index: 1,
-    title: <>Flexiblility to adapt</>,
+    title: <>Flexibility to adapt</>,
     imageUrl: 'img/undraw_yoga.svg',
     description: (
       <>
@@ -39,7 +39,7 @@ export const features = [
     imageUrl: 'img/undraw_code_review.svg',
     description: (
       <>
-        GraphQL CRUD abstracts from large GraphQL vendors giving you flexiblity and ability to migrate without rebuilding your clients and resolves
+        GraphQL CRUD abstracts from large GraphQL vendors giving you flexibility and ability to migrate without rebuilding your clients and resolves
       </>
     ),
   },
